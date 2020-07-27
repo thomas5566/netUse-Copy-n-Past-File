@@ -13,8 +13,8 @@ for ip in data:
     destinationloca = r"\c$\Oracle\product\11.2.0\client_1\network\admin"
     netResource = ipdestination + destinationloca
 
-    username = "lswin"
-    password = "1gnutat"
+    username = ""
+    password = ""
 
     copytnsnames = r"\\172.16.67.41\1資訊課表單\install\NHIS\tnsnames.ora"
     try:
